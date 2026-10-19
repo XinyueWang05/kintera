@@ -107,6 +107,29 @@ sections:
     - VULCAN comparison, scoped out
   sec-ch13-examples:
     - example scripts
+  # Chapter 3. Equation of state and thermodynamic functions
+  sec-ch03-eos:
+    - equation of state: [ideal gas law, Dalton's law, compressibility factor]
+    - concentration from mole fraction
+  sec-ch03-species-functions:
+    - heat capacity, per species: [cv_R, cp]
+    - internal energy, per species
+    - enthalpy, per species
+    - entropy, gas and condensate
+  sec-ch03-reference-state:
+    - reference temperature and pressure, thermodynamic: [u0_R, s0_R, energy offset]
+    - latent heat: [Kirchhoff's law]
+  sec-ch03-thermo-y:
+    - mass fractions: [ThermoY, partial density]
+    - temperature from internal energy
+  sec-ch03-thermo-x:
+    - mole fractions: [ThermoX]
+    - temperature from entropy
+  sec-ch03-relative-humidity:
+    - relative humidity: [saturation ratio, supersaturation]
+  sec-ch03-adiabat:
+    - moist adiabat: [pseudo-adiabat, rainout, isentrope]
+    - effective heat capacity
 
 unlabeled:
   - file: chapters/appendices/_appb-ch*.qmd
